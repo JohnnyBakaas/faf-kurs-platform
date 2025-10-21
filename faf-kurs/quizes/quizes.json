@@ -1,0 +1,169 @@
+{
+  "quiz-1": {
+    "id": "quiz-1",
+    "name": "Trafikkskilt",
+    "description": "Test kunnskap om vanlige norske trafikkskilt.",
+    "quizQuestions": [
+      {
+        "question": "Hva betyr dette skiltet?",
+        "image": "/images/sign_no_entry.jpg",
+        "options": {
+          "A": "Parkering forbudt",
+          "B": "Innkjøring forbudt",
+          "C": "Enveiskjørt vei",
+          "D": "Forbikjøring forbudt"
+        },
+        "hints": [
+          "Rødt rundt skilt betyr forbud.",
+          "Det er ofte plassert ved veiinnkjøringer."
+        ],
+        "answer": "B",
+        "explanation": "Et rødt rundt skilt med hvit horisontal strek betyr 'Innkjøring forbudt'."
+      },
+      {
+        "question": "Hva betyr et blått skilt med hvit pil rett fram?",
+        "image": "/images/sign_straight_only.jpg",
+        "options": {
+          "A": "Kjør rett fram",
+          "B": "Forbikjøring forbudt",
+          "C": "Sving til høyre",
+          "D": "Vikeplikt"
+        },
+        "hints": [
+          "Blå skilt viser påbud.",
+          "Pilene viser retningen du må kjøre."
+        ],
+        "answer": "A",
+        "explanation": "Et blått rundt skilt med hvit pil viser et påbud – her 'Kjør rett fram'."
+      },
+      {
+        "question": "Hva betyr et trekantet skilt med rød kant og et kryss i midten?",
+        "image": "/images/sign_crossroad_warning.jpg",
+        "options": {
+          "A": "Du har forkjørsrett",
+          "B": "Kryssende vei uten forkjørsrett",
+          "C": "Vikeplikt",
+          "D": "Stoppskilt"
+        },
+        "hints": [
+          "Trekant med spiss opp betyr fare.",
+          "Et kryss i midten varsler kryssende trafikk."
+        ],
+        "answer": "B",
+        "explanation": "Trekant med rød kant og svart kryss varsler om kryssende vei uten forkjørsrett."
+      }
+    ]
+  },
+
+  "quiz-2": {
+    "id": "quiz-2",
+    "name": "Fartsgrenser og kjøring",
+    "description": "Sjekk hvor godt du kjenner norske fartsgrenser og regler for kjøring.",
+    "quizQuestions": [
+      {
+        "question": "Hva er fartsgrensen i tettbygd strøk dersom ingen skilt viser noe annet?",
+        "image": "/images/speed_city.jpg",
+        "options": {
+          "A": "30 km/t",
+          "B": "40 km/t",
+          "C": "50 km/t",
+          "D": "60 km/t"
+        },
+        "hints": [
+          "Det gjelder standardgrense når ingen skilt viser annet.",
+          "Tenk på områder med boliger og butikker."
+        ],
+        "answer": "C",
+        "explanation": "I tettbygd strøk er fartsgrensen 50 km/t dersom annet ikke er skiltet."
+      },
+      {
+        "question": "Hva er den høyeste lovlige fartsgrensen på norsk motorvei?",
+        "image": "/images/motorway.jpg",
+        "options": {
+          "A": "100 km/t",
+          "B": "110 km/t",
+          "C": "120 km/t",
+          "D": "130 km/t"
+        },
+        "hints": [
+          "Bare noen få motorveier har den høyeste grensen.",
+          "Se på E18 eller E6 nye strekninger."
+        ],
+        "answer": "B",
+        "explanation": "På enkelte motorveier i Norge er 110 km/t tillatt som høyeste lovlige fart."
+      },
+      {
+        "question": "Når er det lov å kjøre forbi på høyre side?",
+        "image": "/images/passing_right.jpg",
+        "options": {
+          "A": "Når bilen foran skal svinge til venstre",
+          "B": "Aldri",
+          "C": "På motorvei i venstre fil",
+          "D": "Når det er mye trafikk i alle felt"
+        },
+        "hints": [
+          "Tenk på situasjoner med venstresving.",
+          "Regelen har unntak."
+        ],
+        "answer": "A",
+        "explanation": "Du kan passere på høyre side når bilen foran har varslet venstresving og du har plass."
+      }
+    ]
+  },
+
+  "quiz-3": {
+    "id": "quiz-3",
+    "name": "Førstehjelp og ulykker",
+    "description": "Test kunnskapen din om hva du skal gjøre ved trafikkulykker.",
+    "quizQuestions": [
+      {
+        "question": "Hva er det første du skal gjøre når du kommer til et ulykkessted?",
+        "image": "/images/accident_scene.jpg",
+        "options": {
+          "A": "Gi førstehjelp umiddelbart",
+          "B": "Ringe politiet først",
+          "C": "Sikre ulykkesstedet",
+          "D": "Ta bilder av skadene"
+        },
+        "hints": [
+          "Tenk HMS – sikkerhet først.",
+          "Før du hjelper, må du sørge for at du ikke blir en del av ulykken."
+        ],
+        "answer": "C",
+        "explanation": "Sikre stedet først slik at ikke flere blir skadet, deretter varsle og gi hjelp."
+      },
+      {
+        "question": "Hva er riktig rekkefølge ved førstehjelp?",
+        "image": "/images/first_aid.jpg",
+        "options": {
+          "A": "Puste – Varsle – Sirkulasjon",
+          "B": "Varsle – Sirkulasjon – Puste",
+          "C": "Sikre – Varsle – Hjelpe",
+          "D": "Hjelpe – Varsle – Sikre"
+        },
+        "hints": [
+          "Bruk huskeregelen du lærte på kurset.",
+          "Rekkefølgen starter med å sikre området."
+        ],
+        "answer": "C",
+        "explanation": "Huskeregel: 'Sikre – Varsle – Hjelpe' er riktig rekkefølge ved ulykker."
+      },
+      {
+        "question": "Hva gjør du hvis en person ikke puster?",
+        "image": "/images/cpr.jpg",
+        "options": {
+          "A": "Legg personen i stabilt sideleie",
+          "B": "Begynn hjerte- og lungeredning (HLR)",
+          "C": "Gi personen vann",
+          "D": "Vent til ambulanse kommer"
+        },
+        "hints": [
+          "Tenk på HLR-prosedyren.",
+          "Stabilt sideleie brukes bare når personen puster."
+        ],
+        "answer": "B",
+        "explanation": "Hvis personen ikke puster, start umiddelbart HLR – 30 trykk og 2 innblåsninger."
+      }
+    ]
+  }
+}
